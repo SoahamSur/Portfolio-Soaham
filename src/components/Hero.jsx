@@ -2,23 +2,23 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { styles } from "../styles";
-import Spline from '@splinetool/react-spline';
+import Spline from "@splinetool/react-spline";
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     // Check if window object is available
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       const handleResize = () => {
         setIsMobile(window.innerWidth <= 768); // You can adjust the breakpoint as needed
       };
 
       handleResize(); // Check on mount
-      window.addEventListener('resize', handleResize); // Add event listener
+      window.addEventListener("resize", handleResize); // Add event listener
 
       return () => {
-        window.removeEventListener('resize', handleResize); // Cleanup on unmount
+        window.removeEventListener("resize", handleResize); // Cleanup on unmount
       };
     }
   }, []);
@@ -34,21 +34,29 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Soaham</span>
+            Hi, I'm{" "}
+            <span class=" bg-gradient-to-r from-violet-600 via-purple-500 to-white text-transparent bg-clip-text bg-300% animate-gradient">
+            Soaham
+            </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Welcome to my Portfolio!
           </p>
+          {/* 2 buttons here */}
         </div>
+        
       </div>
-      {isMobile ? (
+      {/* <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" /> */}
+
+      {/* {isMobile ? (
         <div className="w-full h-auto absolute bottom-36">
           <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" className="h-full" />
         </div>      ) : (
         <div className="absolute right-0 top-0 w-[70vw] h-[160vh] ">
           <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" className="h-full" />
         </div>
-      )}
+      )} */}
+      
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">
         <a href="#about">
           <div className="w-[20px] h-[38px] rounded-3xl border-2 border-secondary flex justify-center items-start p-1">

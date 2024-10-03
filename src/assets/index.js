@@ -28,6 +28,7 @@ import python from "./tech/python.png"
 // import carrent from "./carrent.png";
 import studdybuddy from "./studdybuddy.png";
 import jobit from "./jobit.png";
+import shopEZ from './shopEZ.png';
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,6 +58,7 @@ export {
   // carrent,
   studdybuddy,
   jobit,
+  shopEZ,
   tripguide,
   python
 };

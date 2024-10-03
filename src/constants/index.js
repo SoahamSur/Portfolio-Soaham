@@ -14,6 +14,7 @@ import {
     figma,
     // carrent,
     studdybuddy,
+    shopEZ,
     jobit,
     tripguide,
     threejs,
@@ -28,6 +29,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -184,7 +189,7 @@ import {
   
   const projects = [
     {
-      name: "Studdy Buddy",
+      name: "Study Buddy",
       description:
         "Web-based platform that allows users to make the most out of their study time. It's comprehensive platform designed to revolutionize the way students approach their learning journey.",
       tags: [
@@ -203,6 +208,27 @@ import {
       ],
       image: studdybuddy,
       source_code_link: "https://github.com/SoahamSur/Study-Buddy/",
+    },
+    {
+      name: "ShopEZ",
+      description:
+        "Web-based platform that allows users to make the most out of their study time. It's comprehensive platform designed to revolutionize the way students approach their learning journey.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Flask",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shopEZ,
+      source_code_link: "https://github.com/SoahamSur/ShopEZ",
     },
     {
       name: "Portfolio",
@@ -225,27 +251,27 @@ import {
       image: jobit,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Ava",
-      description:
-        "Say hello to a smarter, more efficient way to manage your tasks with Ava by your side! Whether you need to open applications, play your favorite music, or find the latest weather updates, Ava has got you covered. ",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "speechrecognition",
-          color: "green-text-gradient",
-        },
-        {
-          name: "numpy",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Echo",
+    //   description:
+    //     "Say hello to a smarter, more efficient way to manage your tasks with Echo by your side! Whether you need to open applications, play your favorite music, or find the latest weather updates, Echo has got you covered. ",
+    //   tags: [
+    //     {
+    //       name: "python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "speechrecognition",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "numpy",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, projects };
