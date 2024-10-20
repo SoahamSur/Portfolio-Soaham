@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 import { styles } from "../styles";
 import Spline from "@splinetool/react-spline";
 
+
+
+
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -47,6 +50,8 @@ const Hero = () => {
         
       </div>
       {/* <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" /> */}
+    {/* <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" /> */}
+    {/* <Spline scene="https://prod.spline.design/kBpNsubJ-8t9w-PW/scene.splinecode" /> */}
 
       {/* {isMobile ? (
         <div className="w-full h-auto absolute bottom-36">

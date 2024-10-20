@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import newLogo from "./newLogo.svg";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -33,6 +34,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  newLogo,
   backend,
   creator,
   mobile,
