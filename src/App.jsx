@@ -30,12 +30,12 @@ function App() {
         }
         return prevProgress + 10; // Increment the progress by 10
       });
-    }, 1200); // Update progress every 500ms
+    }, 500); // Update progress every 500ms
   }, []);
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center min-h-screen ">
       {/* Loader container */}
       <div className="flex items-center justify-center w-[200px] h-[200px]">
         <LoaderSVG progress={progress} /> {/* Loader SVG with dynamic progress */}
