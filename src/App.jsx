@@ -35,7 +35,7 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center min-h-screen ">
+      <div className="flex items-center justify-center min-h-screen   ">
       {/* Loader container */}
       <div className="flex items-center justify-center w-[200px] h-[200px]">
         <LoaderSVG progress={progress} /> {/* Loader SVG with dynamic progress */}

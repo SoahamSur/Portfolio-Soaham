@@ -7,6 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import newLogo from "./newLogo.svg";
+import web_new from "./web_new.png";
+import content_new from "./content_new.png";
+import backend_new from "./backend_new.png";
+import ai_new from "./ai_new.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -36,9 +40,13 @@ export {
   logo,
   newLogo,
   backend,
+  backend_new,
   creator,
+  content_new,
+  ai_new,
   mobile,
   web,
+  web_new,
   github,
   menu,
   close,

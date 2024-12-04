@@ -1,6 +1,10 @@
 import {
     mobile,
     backend,
+    ai_new,
+    backend_new,
+    content_new,
+    web_new,
     creator,
     web,
     javascript,
@@ -43,19 +47,19 @@ import {
   const services = [
     {
       title: "Web Developer",
-      icon: web,
+      icon: web_new,
     },
     {
       title: "Backend Developer",
-      icon: backend,
+      icon: backend_new,
     },
     {
       title: "AIML",
-      icon: mobile,
+      icon: ai_new,
     },
     {
       title: "Content Creator",
-      icon: creator,
+      icon: content_new,
     },
   ];
   
