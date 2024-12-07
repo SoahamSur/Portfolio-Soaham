@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import Spline from '@splinetool/react-spline';
 
 const ProjectCard = ({
   index,
@@ -101,7 +102,11 @@ const Works = () => {
     More Projects
 </button></a>
 
+
+
+
       </div>
+    {/* <Spline scene="https://prod.spline.design/vhiVaUaU0edAbEel/scene.splinecode" /> */}
     </>
   );
 };

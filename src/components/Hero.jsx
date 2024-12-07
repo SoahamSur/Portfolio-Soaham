@@ -24,7 +24,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto overflow-hidden">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 `}
       >
@@ -84,15 +84,27 @@ const Hero = () => {
       {/* <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" /> */}
       {/* <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" /> */}
       {/* <Spline scene="https://prod.spline.design/kBpNsubJ-8t9w-PW/scene.splinecode" /> */}
+      {/* <div className="mx-10 px-10 h-full w-6/7 overflow-x-hidden"> */}
 
-      {/* {isMobile ? (
-        <div className="w-full h-auto absolute bottom-36">
-          <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" className="h-full" />
-        </div>      ) : (
-        <div className="absolute right-0 top-0 w-[70vw] h-[160vh] ">
-          <Spline scene="https://prod.spline.design/XwybZb4QZs5r93fC/scene.splinecode" className="h-full" />
-        </div>
-      )} */}
+      {/* <Spline scene="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode" className=""/>        */}
+
+
+      {/* import Spline from '@splinetool/react-spline';
+
+export default function App() {
+  return (
+    <Spline scene="https://prod.spline.design/G35XKGGAmD0qbT8A/scene.splinecode" />
+  );
+} */}
+
+      {isMobile ? (
+        <div className="aspect-[16/9]  overflow-clip absolute top-[91px] right-[-172px] h-screen max-w-fit  ">
+  <Spline scene="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode" /> 
+    </div>      ) : (
+      
+    <Spline scene="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode" className=""/> 
+    
+      )}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">
         <a href="#about">
