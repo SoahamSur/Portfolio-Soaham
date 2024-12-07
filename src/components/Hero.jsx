@@ -98,14 +98,15 @@ export default function App() {
 } */}
 
       {isMobile ? (
-        <div className="aspect-[16/9]  overflow-clip absolute top-[91px] right-[-172px] h-screen max-w-fit  ">
-  <Spline scene="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode" /> 
+        <div className="aspect-[16/9]  overflow-clip absolute top-[17vh] right-[-172px] h-screen max-w-fit  ">
+  <Spline scene="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode" loading="eager" loading-anim-type="spinner-big-dark"  /> 
     </div>      ) : (
       
-    <Spline scene="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode" className=""/> 
+    <Spline scene="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode" loading='eager' loading-anim-type="spinner-big-dark"  /> 
     
       )}
-
+{/* <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.48/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/0CnoFVNis90EzfQI/scene.splinecode"></spline-viewer> */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">
         <a href="#about">
           <div className="w-[20px] h-[38px] rounded-3xl border-2 border-secondary flex justify-center items-start p-1">
