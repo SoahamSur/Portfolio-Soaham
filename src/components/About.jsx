@@ -16,21 +16,21 @@ const ServiceCard = ({ index, title, icon }) => (
     >
       <div
         options={{
-          max: 45,
+          max: 30,
           scale: 1,
-          speed: 450,
+          speed: 500,
         }}
         className='bg-tertiary css-selector rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
+        <h3 className='text-white text-[20px] font-bold text-center'>
+          {title}
+        </h3>
         <img
           src={icon}
           alt='web-development'
           className='w-16 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
       </div>
     </motion.div>
   </Tilt>

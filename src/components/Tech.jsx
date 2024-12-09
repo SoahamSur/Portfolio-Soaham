@@ -15,7 +15,7 @@ const Tech = () => {
       <div className="w-full md:w-auto">
         <StarsCanvas />
       </div>
-      <div className="w-full h-[41rem]  md:w-[800px] md:h-[600px] lg:w-[10000px] m-auto">
+      <div className="w-full h-[70%] xs:aspect-[16/9] xs:w-full md:w-[800px] md:h-[600px] lg:w-[10000px] m-auto">
         <Spline 
           className="w-full h-full"
           scene="https://prod.spline.design/FvWuvWXmaxwpLUtE/scene.splinecode"
